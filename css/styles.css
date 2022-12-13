@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotoPerfil {
+    background-color: white;
+}
+
+.fotoPerfil img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 100%;
+    border: solid 2px #BB99DD;
+}
+
+.cardLinks {
+    background-color: yellow;
+    border: solid 2px #BB99DD;
+}
+
+.linkCard {
+    font-style: bold;
+}
+
+.icons {
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+}
